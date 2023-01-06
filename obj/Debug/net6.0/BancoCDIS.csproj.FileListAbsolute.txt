@@ -1,0 +1,15 @@
+C:\Users\diana\Banco\BancoCDIS\bin\Debug\net6.0\BancoCDIS.exe
+C:\Users\diana\Banco\BancoCDIS\bin\Debug\net6.0\BancoCDIS.deps.json
+C:\Users\diana\Banco\BancoCDIS\bin\Debug\net6.0\BancoCDIS.runtimeconfig.json
+C:\Users\diana\Banco\BancoCDIS\bin\Debug\net6.0\BancoCDIS.dll
+C:\Users\diana\Banco\BancoCDIS\bin\Debug\net6.0\BancoCDIS.pdb
+C:\Users\diana\Banco\BancoCDIS\obj\Debug\net6.0\BancoCDIS.csproj.AssemblyReference.cache
+C:\Users\diana\Banco\BancoCDIS\obj\Debug\net6.0\BancoCDIS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diana\Banco\BancoCDIS\obj\Debug\net6.0\BancoCDIS.AssemblyInfoInputs.cache
+C:\Users\diana\Banco\BancoCDIS\obj\Debug\net6.0\BancoCDIS.AssemblyInfo.cs
+C:\Users\diana\Banco\BancoCDIS\obj\Debug\net6.0\BancoCDIS.csproj.CoreCompileInputs.cache
+C:\Users\diana\Banco\BancoCDIS\obj\Debug\net6.0\BancoCDIS.dll
+C:\Users\diana\Banco\BancoCDIS\obj\Debug\net6.0\refint\BancoCDIS.dll
+C:\Users\diana\Banco\BancoCDIS\obj\Debug\net6.0\BancoCDIS.pdb
+C:\Users\diana\Banco\BancoCDIS\obj\Debug\net6.0\BancoCDIS.genruntimeconfig.cache
+C:\Users\diana\Banco\BancoCDIS\obj\Debug\net6.0\ref\BancoCDIS.dll
