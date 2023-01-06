@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-bool continuar = false;
+﻿bool continuar = false;
 int[]retiros = new int[10];
 int cantidadRetiros=0;
 while(true){
@@ -8,7 +6,6 @@ while(true){
     Console.WriteLine("1.Ingresar la cantidad de retiros hechos por los usuarios.\n2.Revisar la cantidad entregada de billetes y monedas");
 
     int opcion=0;
-    //int valorRetiro=0;
 
     Console.Write("Ingresa la opcion: ");
     opcion = int.Parse(Console.ReadLine());
@@ -18,20 +15,14 @@ while(true){
         do{
             Console.Write("¿Cuantos retiros se hicieron? (maximo 10)?: ");
             cantidadRetiros = int.Parse(Console.ReadLine());
-        }while(cantidadRetiros < 1 || cantidadRetiros > 11);
+        }while(cantidadRetiros < 1 || cantidadRetiros > 10);
         
-        
-        //List<int> retiros = new List<int>(cantidadRetiros);
 
-        /*foreach (int i in retiros) {
-                Console.WriteLine(i);
-            }*/
-
-    for(int i=0; i<cantidadRetiros; i++){
+        for(int i=0; i<cantidadRetiros; i++){
             do{
                 Console.WriteLine($"Ingrese la cantidad del retiro #{i+1} (mayor a 0 y menor o igual a 50,000.): ");
                 retiros[i] = int.Parse(Console.ReadLine());
-            }while(cantidadRetiros < 1 || cantidadRetiros > 50000);
+            }while(retiros[i] < 1 || retiros[i] > 50000);
         }
 
         Console.WriteLine("Retiros realizados: ");
@@ -40,7 +31,6 @@ while(true){
         {
             Console.WriteLine($"Retiro #{i+1}: {retiros[i]}");
         }
-
 
     }else if(opcion==2){
         if(continuar){
@@ -81,7 +71,6 @@ while(true){
             string aux3 = Console.ReadLine();
         }
         
-
     }else{
         Console.WriteLine("Opcion invalida, ingrese otra opcion:");
     }
